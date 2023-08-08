@@ -15,6 +15,15 @@
 
 > Um módulo deveria ser responsável por um e apenas um ator.
 
+- O que é um ator?
+  - Grupo que necessitam de uma mudança em determinado objeto.
+
+- O que é um módulo?
+  - Basicamente, um grupo coeso de funções e estruturas de dados
 
 - O que ferir o SRP causaria?
   - Anti pattern GOD class
+
+- Como identificador um problema de SRP?
+  - Simples, uma classe tem metodos que atendem 3 tipos diferentes de atores.
+  - ex: Classe de cotação de apolice de seguro ter o método imprimir, cotação e cobrar
